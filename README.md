@@ -1,6 +1,6 @@
 # npmtest-hyperterm-cursor
 
-#### test coverage for  [hyperterm-cursor (v0.0.3)](https://github.com/alvaropinot/hyperterm-cursor#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperterm-cursor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperterm-cursor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperterm-cursor.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperterm-cursor)
+#### basic test coverage for  [hyperterm-cursor (v0.0.3)](https://github.com/alvaropinot/hyperterm-cursor#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperterm-cursor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperterm-cursor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperterm-cursor.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperterm-cursor)
 
 #### hyperterm custom cursor
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperterm-cursor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperterm-cursor/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-hyperterm-cursor/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperterm-cursor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperterm-cursor/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-hyperterm-cursor/build/coverage.html/index.html)
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.0.3"
+    "version": "0.0.3",
+    "bin": {}
 }
 ```
 
